@@ -35,6 +35,10 @@ public class App {
         Atividade4 exibirPares = new Atividade4();
 
         exibirPares.exibiPares(exibirPares.getPares());
+        exibirPares.exibirAtividade5();
+
+        //Atividade 5
+
 
     }
 }

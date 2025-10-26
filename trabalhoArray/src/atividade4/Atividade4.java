@@ -17,6 +17,12 @@ public class Atividade4 {
     public void setPares(int[] setpares) {
         this.pares = pares;
     }
+    public void exibirAtividade5(){
+        Arrays.fill(this.pares, 10);
+
+        System.out.println("Array preenchido atividade 5: " + Arrays.toString(getPares()));
+    }
+
     public void exibiPares (int[] pares){
 
         Arrays.sort(getPares());
