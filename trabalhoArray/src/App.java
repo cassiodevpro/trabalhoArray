@@ -1,6 +1,7 @@
 import atividade1.Atividade1;
 import atividade2.Atividade2;
 import atividade3.Atividade3;
+import atividade4.Atividade4;
 
 import java.util.Arrays;
 
@@ -28,6 +29,12 @@ public class App {
         Atividade3 pares = new Atividade3(10);
         pares.exibirPares();
         pares.preencherPares();
+
+        //Atividade 4
+
+        Atividade4 exibirPares = new Atividade4();
+
+        exibirPares.exibiPares(exibirPares.getPares());
 
     }
 }
