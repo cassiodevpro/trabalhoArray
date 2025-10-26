@@ -2,6 +2,7 @@ import atividade1.Atividade1;
 import atividade2.Atividade2;
 import atividade3.Atividade3;
 import atividade4.Atividade4;
+import atividade6.Atividade6;
 
 import java.util.Arrays;
 
@@ -35,9 +36,11 @@ public class App {
         Atividade4 exibirPares = new Atividade4();
 
         exibirPares.exibiPares(exibirPares.getPares());
-        exibirPares.exibirAtividade5();
 
-        //Atividade 5
+        //Atividade 6
+        Atividade6 filtro = new Atividade6();
+        filtro.exibirAtividade6();
+
 
 
     }
