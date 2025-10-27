@@ -32,10 +32,14 @@ public class App {
         pares.preencherPares();
 
         //Atividade 4
-
         Atividade4 exibirPares = new Atividade4();
-
         exibirPares.exibiPares(exibirPares.getPares());
+
+        //Atividade 5
+
+        exibirPares.serachOito();
+
+
 
         //Atividade 6
         Atividade6 filtro = new Atividade6();

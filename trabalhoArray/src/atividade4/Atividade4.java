@@ -18,6 +18,10 @@ public class Atividade4 {
         this.pares = pares;
     }
 
+    public void serachOito(){
+        System.out.println("Numero oito achado na posicao: " + Arrays.binarySearch(this.pares, 8));
+    }
+
     public void exibiPares (int[] pares){
 
         Arrays.sort(getPares());
