@@ -1,3 +1,5 @@
+package atividade1;
+
 public class Atividade1 {
     private int[] numeros;
 

@@ -17,4 +17,16 @@ public class Atividade2 {
         nomes[1] = "Bruno";
         nomes[2] = "Carlos";    
     }
+    private String nome;
+
+    public Atividade2(String nome) {
+        this.nome = nome;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
 }
